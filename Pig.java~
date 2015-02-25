@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 public class Pig extends Turtle
 { 
   /**
@@ -8,7 +10,7 @@ public class Pig extends Turtle
   public Pig(World wref)
   {
     super(wref);
-    Color shellColor = new Color(200, 50, 10); //requires import line at top to work (new color defined using RGB values)
+    Color shellColor = new Color(255, 0, 127); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
   }
   

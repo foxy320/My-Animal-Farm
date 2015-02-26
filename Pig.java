@@ -10,8 +10,14 @@ public class Pig extends Turtle
   public Pig(World wref)
   {
     super(wref);
-    Color shellColor = new Color(255, 0, 127); //requires import line at top to work (new color defined using RGB values)
+    Color shellColor = new Color(255, 105, 180); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
+    
+     Color bodyColor = new Color(255, 105, 180); //requires import line at top to work (new color defined using RGB values)
+    this.setBodyColor(bodyColor);
+    
+    this.setWidth(15);
+    this.setHeight(20);
     
   }
   

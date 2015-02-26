@@ -12,6 +12,7 @@ public class Pig extends Turtle
     super(wref);
     Color shellColor = new Color(255, 0, 127); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
+    
   }
   
   /**

@@ -13,11 +13,17 @@ public class Pig extends Turtle
     Color shellColor = new Color(255, 105, 180); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
     
-     Color bodyColor = new Color(255, 105, 180); //requires import line at top to work (new color defined using RGB values)
+    Color bodyColor = new Color(255, 105, 180); //requires import line at top to work (new color defined using RGB values)
     this.setBodyColor(bodyColor);
     
-    this.setWidth(15);
-    this.setHeight(20);
+    this.setWidth(50);
+    this.setHeight(40);
+    
+    this.getDistance(100,100);
+    this.getDistance(25,25);
+     
+     
+    
     
   }
   

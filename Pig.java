@@ -19,12 +19,8 @@ public class Pig extends Turtle
     this.setWidth(50);
     this.setHeight(40);
     
-    this.getDistance(100,100);
-    this.getDistance(25,25);
-     
-     
-    
-    
+    this.setName("Mr. Piggie: Albert Louise");
+    System.out.println(this.toString());
   }
   
   /**

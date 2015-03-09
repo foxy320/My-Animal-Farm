@@ -19,8 +19,10 @@ public class Pig extends Turtle
     this.setWidth(50);
     this.setHeight(40);
     
+    
     this.setName("Mr. Piggie: Albert Louise");
     System.out.println(this.toString());
+    
   }
   
   /**
@@ -33,5 +35,18 @@ public class Pig extends Turtle
   public Pig(int x, int y, World wref)
   {
     super(x, y, wref);
+  }
+  
+  public void animate(int x) 
+  {
+    for(int i = 0; i < 20; i++)
+    {
+      this.forward(x);
+      
+      try
+      {
+        Thread.sleep(50);
+      }catch (InterruptedException ex) { }
+    }
   }
 }

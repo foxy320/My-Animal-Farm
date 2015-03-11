@@ -18,24 +18,24 @@ public class Farm
     ex1.turnLeft();
     ex1.animate(13);
     ex1.turnLeft();
-    ex1.forward(3);
+    ex1.animate(3);
     ex1.turnLeft();
-    ex1.forward(5);
+    ex1.animate(5);
     ex1.turnRight();
-    ex1.forward(8);
+    ex1.animate(8);
     ex1.turnRight();
-    ex1.forward(5);
+    ex1.animate(5);
     ex1.turnLeft();
-    ex1.forward(3);
+    ex1.animate(3);
     ex1.turnLeft();
-    ex1.forward(13);
+    ex1.animate(13);
     ex1.turnLeft();
-    ex1.forward(3);
+    ex1.animate(3);
     ex1.turnLeft();
-    ex1.forward(5);
+    ex1.animate(5);
     ex1.turnRight();
     
-    ex1.animate(5);
+    //ex1.animate(5);
     }
 }
 

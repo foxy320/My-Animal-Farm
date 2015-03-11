@@ -27,14 +27,5 @@ public class Frog extends Turtle
     Color shellColor = new Color(0, 100, 0); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
   }
- 
-  {
-    this.setName("Fred");
-  }
   
-  {
-    this.penUp();
-    this.forward(50);
-    this.turnRight();
-  }
 }
